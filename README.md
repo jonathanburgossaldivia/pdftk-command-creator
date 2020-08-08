@@ -7,8 +7,8 @@ Assuming you have a 6 page scanned document with OCR and its regular expression 
 
 
 ```
-pdftk my_original.pdf cat 1-3 output date1_my_original.pdf
-pdftk my_original.pdf cat 4-6 output date1_my_original.pdf
+pdftk my_original.pdf cat 1-3 output a_date1_my_original.pdf
+pdftk my_original.pdf cat 4-6 output a_date2_my_original.pdf
 ```
 
 ![Image description](https://github.com/jonathanburgossaldivia/)
@@ -40,11 +40,6 @@ Open Terminal app or other console app and execute:
 ```
 ruby pcg.rb /your/input_folder /your/output_folder 'YOUR REGEX'
 ```
-
-```
-ruby pcg.rb /your/input_folder /your/output_folder 'YOUR REGEX'
-```
-
 
 ## Built With
 
