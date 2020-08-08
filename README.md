@@ -11,7 +11,7 @@ pdftk my_original.pdf cat 1-3 output a_date1_my_original.pdf
 pdftk my_original.pdf cat 4-6 output a_date2_my_original.pdf
 ```
 
-![Image description](https://github.com/jonathanburgossaldivia/)
+![pcg_screenshot](https://github.com/jonathanburgossaldivia/pdftk-command-generator/blob/master/pcg_screenshot.png)
 
 ## General information
 
